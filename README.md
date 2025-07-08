@@ -182,40 +182,23 @@ sudo umount /mnt
 2. Restart the device
 3. Press **F7** repeatedly during startup to enter the Boot Selection menu
 4. Select your USB drive from the list
-5. When the EFI Shell appears, enter the following commands in sequence:
+5. When the EFI Shell appears, enter the following commands in sequence (take a look at the table below for a description of each command):
 
 ```
 map -c
-```
-
-This will display all available drives. Look for your USB drive which usually appears as **Removable HardDisk** (typically blk0, blk1, fs0, fs1, etc.)
-
-```
 blkX:
-```
-
-Replace `blkX:` with the correct drive identifier from the previous command (e.g., `blk1:` or `fs0:`)
-
-```
 ls
-```
-
-Verify you're in the correct location by checking if the BIOS update files are visible
-
-```
 Efiflash.nsh
 ```
 
-Or if that file isn't present, try `Flash.nsh` instead
-
 6. Follow the on-screen prompts to complete the BIOS update
 
-| Command                       | Description                                                                            |
-| ----------------------------- | -------------------------------------------------------------------------------------- |
-| `map -c`                      | Lists all available drives. Your USB drive typically appears as **Removable HardDisk** |
-| `blkX:` or `fsX:`             | Selects and changes to the USB drive (replace X with the correct number)               |
-| `ls`                          | Lists files in the current directory to verify you're in the correct location          |
-| `Efiflash.nsh` or `Flash.nsh` | Runs the BIOS update script                                                            |
+| Command                       | Description                                                                                                                   |
+| ----------------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| `map -c`                      | Lists all available drives. Your USB drive typically appears as **Removable HardDisk** (typically blk0, blk1, fs0, fs1, etc.) |
+| `blkX:` or `fsX:`             | Selects and changes to the USB drive (replace X with the correct number from the previous command)                            |
+| `ls`                          | Lists files in the current directory to verify you're in the correct location                                                 |
+| `Efiflash.nsh` or `Flash.nsh` | Runs the BIOS update script. Try `Flash.nsh` if `Efiflash.nsh` isn't present                                                  |
 
 <a href="files/efishell1.png" target="_blank">
   <img src="files/efishell1.png" alt="efishell1" width="450"/>
