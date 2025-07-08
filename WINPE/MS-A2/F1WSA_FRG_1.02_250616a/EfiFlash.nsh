@@ -1,0 +1,1 @@
+AfuEfix64.efi F1WSA.bin /p /b /n /k /r /l /RLC:EJ /cmd:{EC} /shutdown 

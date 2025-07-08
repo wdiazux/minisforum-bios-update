@@ -1,0 +1,112 @@
+******************************************
+*          BIOS Release Notice           *    
+******************************************
+Release Date:
+    2025/06/16
+
+BIOS Version:
+    1.02
+
+BIOS Checksum:
+    DA14
+
+BIOS Description:
+     1.Support menual modify power limit in setup
+     2.Add IGFX max Link Speed to GEN5 option 
+     3.Add PCIE ASPM item 
+     4.Update EC FW 09 
+     5.Support to adjust fan speed
+     6.Support to adjust power button brightness
+     7.Update power limit follow thermal 
+------------------------------------- 
+Release Date:
+    2025/04/18
+
+BIOS Version:
+    1.01
+
+BIOS Checksum:
+    83EB
+
+BIOS Description:
+     1.Add item for SSD Link Speed control
+     2.Limit SSD1/SSD2 max Link Speed to GEN3 
+-------------------------------------  
+Release Date:
+    2025/04/14
+
+BIOS Version:
+    1.00
+
+BIOS Checksum:
+    8B8F
+
+BIOS Description:
+     1.Reduction some dimm training time 
+-------------------------------------  
+Release Date:
+    2025/04/01
+
+BIOS Version:
+    0.05
+
+BIOS Checksum:
+    1079
+
+BIOS Description:
+     1.Update ec fw 0.07
+     2.Fixup OA3 key can't delete by tool  
+     3.Fixup UMA size can't modify if DGPU only auto
+     4.Remove unnecessary items from CBS
+-------------------------------------  
+Release Date:
+    2025/03/25
+
+BIOS Version:
+    0.04
+
+BIOS Checksum:
+    80C9
+
+BIOS Description:
+     1.Update ec fw 0.06 
+     2.Set power limit follow thermal engineer
+     3.Limit ssd0 to gen4
+-------------------------------------   
+Release Date:
+    2025/03/19
+
+BIOS Version:
+    0.03
+
+BIOS Checksum:
+    F20F
+
+BIOS Description:
+     1.Remove duplicate PBS option
+     2.Fixup no i226 oprom message in addons
+     3.Update Raid rom 9.3.3.117
+-------------------------------------   
+Release Date:
+    2025/03/07
+
+BIOS Version:
+    0.02
+
+BIOS Checksum:
+    F1F0
+
+BIOS Description:
+     1.Add OEMSID B0211F4C
+-------------------------------------     
+Release Date:
+    2025/03/06
+
+BIOS Version:
+    0.01
+
+BIOS Checksum:
+    DA60
+
+BIOS Description:
+     1.First relase for FireRange CPU power on
