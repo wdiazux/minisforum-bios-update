@@ -196,18 +196,24 @@ EfiFlash.nsh
 | Command                       | Description                                                                                                                   |
 | ----------------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
 | `map -c`                      | Lists all available drives. Your USB drive typically appears as **Removable HardDisk** (typically blk0, blk1, fs0, fs1, etc.) |
-| `blkX:` or `fsX:`             | Selects and changes to the USB drive (replace X with the correct number from the previous command)                            |
+| `fsX:` or `blkX:`             | Selects and changes to the USB drive (replace X with the correct number from the previous command)                            |
 | `ls`                          | Lists files in the current directory to verify you're in the correct location                                                 |
-| `EfiFlash.nsh` or `Flash.nsh` | Runs the BIOS update script. Try `Flash.nsh` if `Efiflash.nsh` isn't present                                                  |
+| `EfiFlash.nsh` or `Flash.nsh` | Runs the BIOS update script. Try `Flash.nsh` if `EfiFlash.nsh` isn't present                                                  |
 
+<a href="files/boot_fromusb.png" target="_blank">
+  <img src="files/boot_fromusb.png" alt="Boot from USB" width="450"/>
+</a>
+<div style="text-align: center;">
+  <em>Click to enlarge</em>
+</div>
 <a href="files/efishell1.png" target="_blank">
-  <img src="files/efishell1.png" alt="efishell1" width="450"/>
+  <img src="files/efishell1.png" alt="EFI Shell 1" width="450"/>
 </a>
 <div style="text-align: center;">
   <em>Click to enlarge</em>
 </div>
 <a href="files/efishell2.png" target="_blank">
-  <img src="files/efishell2.png" alt="efishell2" width="450"/>
+  <img src="files/efishell2.png" alt="EFI Shell 2" width="450"/>
 </a>
 <div style="text-align: center;">
   <em>Click to enlarge</em>
