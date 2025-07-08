@@ -30,8 +30,6 @@ sudo pacman -S gptfdisk parted dosfstools
 > [!IMPORTANT]
 > Updating the BIOS will restore the system to its factory default state and _will format all hard drives if RAID mode_ is enabled in the BIOS.
 
-## Steps
-
 ## Step-by-Step Guide
 
 ### 1. Prepare the USB drive
