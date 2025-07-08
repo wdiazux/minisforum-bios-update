@@ -186,7 +186,7 @@ sudo umount /mnt
 
 ```
 map -c
-blkX:
+fsX:
 ls
 EfiFlash.nsh
 ```
