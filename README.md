@@ -169,8 +169,8 @@ sudo umount /mnt
 4. Set Secure Boot to **Disabled**
 5. Press **F4** to save and exit
 
-<a href="files/turn_off_secure_boot.png" target="_blank">
-  <img src="files/turn_off_secure_boot.png" alt="Turn off Secure Boot" width="450"/>
+<a href="files/turnoff_securebot.png" target="_blank">
+  <img src="files/turnoff_securebot.png" alt="Turn off Secure Boot" width="450"/>
 </a>
 <div style="text-align: center;">
   <em>Click to enlarge</em>
