@@ -188,7 +188,7 @@ sudo umount /mnt
 map -c
 blkX:
 ls
-Efiflash.nsh
+EfiFlash.nsh
 ```
 
 6. Follow the on-screen prompts to complete the BIOS update
@@ -198,7 +198,7 @@ Efiflash.nsh
 | `map -c`                      | Lists all available drives. Your USB drive typically appears as **Removable HardDisk** (typically blk0, blk1, fs0, fs1, etc.) |
 | `blkX:` or `fsX:`             | Selects and changes to the USB drive (replace X with the correct number from the previous command)                            |
 | `ls`                          | Lists files in the current directory to verify you're in the correct location                                                 |
-| `Efiflash.nsh` or `Flash.nsh` | Runs the BIOS update script. Try `Flash.nsh` if `Efiflash.nsh` isn't present                                                  |
+| `EfiFlash.nsh` or `Flash.nsh` | Runs the BIOS update script. Try `Flash.nsh` if `Efiflash.nsh` isn't present                                                  |
 
 <a href="files/efishell1.png" target="_blank">
   <img src="files/efishell1.png" alt="efishell1" width="450"/>
